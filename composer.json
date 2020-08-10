@@ -1,0 +1,44 @@
+{
+	"name": "ommu/yii2-flatpickr",
+	"description": "Yii2 Flatpickr Widget",
+	"type": "yii2-extension",
+	"keywords": [
+		"extension",
+		"widget",
+		"flatpickr",
+		"date",
+		"datetime",
+		"ommu",
+		"ommu-platform",
+		"yii2"
+	],
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/ommu/yii2-flatpickr",
+	"support": {
+		"issues": "https://github.com/ommu/yii2-flatpickr/issues",
+		"wiki": "https://github.com/ommu/yii2-flatpickr/wiki",
+		"source": "https://github.com/ommu/yii2-flatpickr"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ommu/yii2-flatpickr.git"
+	},
+	"authors": [
+		{
+			"name": "Putra Sudaryanto",
+			"email": "putra@ommu.id",
+			"homepage": "https://ommu.id",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": "~7.0",
+		"yiisoft/yii2": "~2.0.13",
+		"npm-asset/flatpickr": "~4.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"ommu\\flatpickr\\": ""
+		}
+	}
+}
