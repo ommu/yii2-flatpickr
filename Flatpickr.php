@@ -69,7 +69,7 @@ class Flatpickr extends \yii\widgets\InputWidget
 
         // set value from query params
         $queryParams = Yii::$app->request->queryParams;
-        if (is_array($queryParams) && !empty($queryParams) && array_key_exists($this->getInputId(), $queryParams)) {
+        if (is_array($queryParams) && !empty($queryParams) && array_key_exists($this->getInputId(), $queryParams) && $queryParams != '') {
             $this->options = ArrayHelper::merge($this->options, ['value' => Yii::$app->request->get($this->getInputId())]);
         }
     }
