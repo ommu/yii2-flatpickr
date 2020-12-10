@@ -25,7 +25,10 @@ class FlatpickrPluginAsset extends \yii\web\AssetBundle
 		'flatpickr.min.js',
 	];
 
-	public $depends = [];
+	public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
+    ];
 
 	public $publishOptions = [
 		'forceCopy' => YII_DEBUG ? true : false,
